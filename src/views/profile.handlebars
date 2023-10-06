@@ -1,0 +1,13 @@
+<article class="profile_container">
+    <h2 class="profile_title">Informacion de {{user.role}} </h2>
+    <p class="profile_data">Nombre: {{user.first_name}}</p>
+    <p class="profile_data">Apellido: {{user.last_name}}</p>
+    <p class="profile_data">Email: {{user.email}}</p>
+    <p class="profile_data-role">{{user.role}}: {{user.id}} </p>
+    <form class="profile_btn" action="/api/sessions/logout" method="POST">
+        <button class="btn btn-danger" type="submit" onclick="logout()">Cerrar Sesión<span class="material-symbols-outlined"></span></button>
+    </form>
+</article>
+
+
+<script src="js/logout.js"></script>

@@ -1,0 +1,40 @@
+[
+  {
+    "title": "Chesscake",
+    "description": "Esta torta del bien hace que te quieras comer todas las porciones. Ideal para un postre compañada de cafe. El ingrediente secreto es la mermelada casera que DOMENICA tiene para esta torta.",
+    "price": 1800,
+    "thumbnail": "img/chesscake.jpg",
+    "code": "Producto2",
+    "stock": 5,
+    "id": 2
+  },
+  {
+    "title": "Ensalada",
+    "description": "Una rica ensalada para un dia de verano y mucho calor es lo mejor que te puede pasar. Las podes armar como mas te guste, solo queda decirle a DOMENICA como seria tu ensalada ideal. Ricas y frescas. ¡ No te la podes perder!",
+    "price": 1600,
+    "thumbnail": "img/ensalada.jpg",
+    "code": "Producto5",
+    "stock": 5,
+    "id": 5
+  },
+  {
+    "title": "Macarons",
+    "description": "Un producto que fue un gran desafio para DOMENICA. Orgullosos de este producto lo presentamos y te contamos que vos podes elegir la cantidad y los colores. Ideales para un regalo o para comer despues de la cena con un cafe.",
+    "price": 3000,
+    "thumbnail": "img/macarons.jpeg",
+    "code": "Producto6",
+    "stock": 15,
+    "id": 6
+  },
+  {
+    "id": 7,
+    "title": "pastas",
+    "description": "",
+    "code": "",
+    "price": "600",
+    "status": "",
+    "stock": 10,
+    "category": "",
+    "thumbnail": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.ambito.com%2Finformacion-general%2Fpastas%2Fcuales-son-los-mejores-restaurantes-comer-buenos-aires-n5314019&psig=AOvVaw2jo5ZEXo7ilnm1dgUT0hFE&ust=1692495435447000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCLDd_PzK54ADFQAAAAAdAAAAABAE"
+  }
+]

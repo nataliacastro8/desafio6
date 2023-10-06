@@ -1,0 +1,35 @@
+<div class="container">
+    <div id= "contenidoh" class="row"></div>
+        <div class="row">
+            <div class="col">
+                <h2>Agregar Producto</h2>
+                <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label">Titulo</label>
+                    <input type="text" class="form-control" id="title">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label">Imagen</label>
+                    <input type="text" class="form-control" id="thumbnail">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label">Precio</label>
+                    <input type="text" class="form-control" id="price">
+                </div>
+                <input type="button" class="btn btn-primary" id="btnAgregarProducto" value="Agregar +">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <h2>Eliminar Producto</h2>
+                <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label">#Id del Producto</label>
+                    <input type="text" class="form-control" id="idProduct">
+                </div>
+                <input type="button" class="btn btn-primary" id="btnEliminarProducto" value="Eliminar -">
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="socket.io/socket.io.js"></script>
+<script src="js/main.realTimeProducts.js"></script>
